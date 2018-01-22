@@ -1,0 +1,83 @@
+/* * * * * * * * * * * * * * * * * * * * * * *
+Base Styles
+* * * * * * * * * * * * * * * * * * * * * * */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+	margin: 20px 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1000px;
+}
+
+p {
+	opacity: 0.6;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * *
+Section Styles
+* * * * * * * * * * * * * * * * * * * * * * */
+
+header,
+.hero,
+.service,
+.main,
+.secondary,
+footer {
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+header {
+	background: #d92241;
+	min-height: 100px;
+}
+
+.hero {
+    height: 400px;
+    background-image: url('../img/forest.jpg');
+    background-size: cover;
+    /* cover will take up 100% of div */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* crops the background to just the bottom, can use other values as well */
+    background-image: linear-gradient(
+        20deg,
+        rgba(14,137,165,0.3),
+        rgba(200,100,50,0.3)),
+        url('../img/forest.jpg');
+}
+
+.service {
+	background: #1b8;
+	height: 200px;
+}
+
+.main {
+	background: #a39449;
+	height: 400px;
+}
+
+.secondary {
+	background: #4394f9;
+	height: 400px;
+}
+
+footer {
+	background: #434449;
+	height: 300px;
+}
