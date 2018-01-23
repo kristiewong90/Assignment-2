@@ -39,6 +39,10 @@ button {
     font-size: 12px;
 }
 
+img {
+    width: 100%;
+}
+
 
 
 
@@ -136,7 +140,7 @@ Hero Styles
 * * * * * * * * * * * * * * * * * * * * */
 
 .hero {
-    height: 400px;
+    height: calc(50vh - 80px);
     background-image: url('../img/forest.jpg');
     background-size: cover;
     text-align: center;
@@ -144,10 +148,11 @@ Hero Styles
     background-position: 50%;
     background-image: linear-gradient(
         20deg,
-        rgba(14,137,165,0.3),
-        rgba(200,100,50,0.3)),
+        rgba(60,150,200,0.4),
+        rgba(300,20,100,0.1)),
         url('../img/forest.jpg');
 }
+
 
 .hero-text-container {
     padding-top: 8vh;
@@ -161,12 +166,18 @@ Hero Styles
     margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+    .hero {
+        height: inherit;
+    }
+    .hero-text-container {
+        padding: 3em;
+    }
+}
+
 /* * * * * * * * * * * * * * * * * * * * *
 Blog Card Styles
 * * * * * * * * * * * * * * * * * * * * */
-img {
-    width: 100%;
-}
 
 .blog-cards h2 {
     margin-top: 20px;
@@ -195,12 +206,15 @@ img {
     font-weight: bold;
 }
 
-
+@media (max-width: 768px) {
+    .blog-cards {
+        height: inherit;
+    }
+}
 /* * * * * * * * * * * * * * * * * * * * *
 Footer Styles
 * * * * * * * * * * * * * * * * * * * * */
 footer {
-    height: 150px;
     background: #e0e0e0;
 }
 
