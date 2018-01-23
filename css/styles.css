@@ -215,6 +215,7 @@ Blog Card Styles
 Footer Styles
 * * * * * * * * * * * * * * * * * * * * */
 footer {
+    height: 200px;
     background: #e0e0e0;
 }
 
@@ -225,4 +226,10 @@ footer h3 {
 
 footer li {
     display: inline-block;
+}
+
+@media (max-width: 768px) {
+    footer {
+        height: 200px;
+    }
 }
