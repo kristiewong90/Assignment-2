@@ -64,6 +64,7 @@ header .logo {
     background-size: 40px;
     padding-top: 10px;
 }
+
  /* Desktop Styles  */
 .desktop-nav ul {
     float: right;
@@ -126,7 +127,6 @@ header .logo {
 }
 
 
-
 @media (max-width: 768px) {
     .mobile-nav {
         display: block;
@@ -184,12 +184,10 @@ Blog Card Styles
 .blog-cards {
     height: 400px;
     text-align: center;
-    /* background-color: #eadbea; */
+    background-color: #eadbea;
+    padding-top: 20px;
 }
 
-.blog-cards h2 {
-    margin-top: 20px;
-}
 
 .card  {
     width: 200px;
