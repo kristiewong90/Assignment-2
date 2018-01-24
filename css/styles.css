@@ -47,7 +47,6 @@ img {
 
 
 
-
 /* * * * * * * * * * * * * * * * * * * * *
 Header Styles
 * * * * * * * * * * * * * * * * * * * * */
@@ -83,13 +82,16 @@ header .logo {
 .desktop-nav a:visited {
     color: #4298a5;
     font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .desktop-nav a:hover,
 .desktop-nav a:focus,
 .desktop-nav a:active {
     opacity: 0.9;
-    color: #4298a5;
+    color: #ff8ba8;
+    background: #e0e0e0;
     text-decoration: none;
 }
 
@@ -155,9 +157,8 @@ Hero Styles
         url('../img/forest.jpg');
 }
 
-
 .hero-text-container {
-    padding-top: 8vh;
+    padding-top: 20vh;
 }
 
 .hero-text-container h1 {
@@ -166,6 +167,23 @@ Hero Styles
 
 .hero-text-container h4 {
     margin-bottom: 30px;
+}
+
+.hero-text-container a,
+.hero-text-container a:visited {
+    color: #4298a5;
+    background: #e0e0e0;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.hero-text-container a:hover,
+.hero-text-container a:focus,
+.hero-text-container a:active {
+    color: #e0e0e0;
+    background: #4298a5;
 }
 
 @media (max-width: 768px) {
