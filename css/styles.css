@@ -11,13 +11,14 @@ font-family: 'Open Sans Condensed', sans-serif;
 General Styles
 * * * * * * * * * * * * * * * * * * * * */
 
-h1, h2, h3 {
+h1, h2, h4 {
     font-family: 'Amatic SC', cursive;
 }
 
 h1 {
     font-size: 70px;
     font-weight: 700;
+    color: #eadbea;
 }
 
 h2 {
@@ -25,10 +26,11 @@ h2 {
     font-weight: 700;
 }
 
-h3 {
+h4 {
     font-size: 32px;
     font-weight: 700;
 }
+
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -140,7 +142,7 @@ Hero Styles
 * * * * * * * * * * * * * * * * * * * * */
 
 .hero {
-    height: calc(50vh - 80px);
+    height: calc(80vh - 80px);
     background-image: url('../img/forest.jpg');
     background-size: cover;
     text-align: center;
@@ -162,7 +164,7 @@ Hero Styles
     margin-bottom: 20px;
 }
 
-.hero-text-container p {
+.hero-text-container h4 {
     margin-bottom: 30px;
 }
 
@@ -179,18 +181,17 @@ Hero Styles
 Blog Card Styles
 * * * * * * * * * * * * * * * * * * * * */
 
+.blog-cards {
+    height: 400px;
+    text-align: center;
+    /* background-color: #eadbea; */
+}
+
 .blog-cards h2 {
     margin-top: 20px;
 }
 
-.blog-cards {
-    height: 400px;
-    background: white;
-    text-align: center;
-}
-
-.card {
-
+.card  {
     width: 200px;
     display: inline-block;
     margin:50px 20px 20px 0;
@@ -205,6 +206,7 @@ Blog Card Styles
 .card .blog-title {
     font-weight: bold;
 }
+
 
 @media (max-width: 768px) {
     .blog-cards {
