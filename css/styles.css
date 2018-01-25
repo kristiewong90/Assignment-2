@@ -46,7 +46,6 @@ img {
 }
 
 
-
 /* * * * * * * * * * * * * * * * * * * * *
 Header Styles
 * * * * * * * * * * * * * * * * * * * * */
@@ -215,12 +214,18 @@ Blog Card Styles
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.card .description-container {
-    padding: 10px;
+.description-container {
+    height: 50px;
+    padding-top: 10px;
 }
 
-.card .blog-title {
+.blog-title {
     font-weight: bold;
+}
+
+.blog-title a {
+    color:#4298a5;
+    text-decoration: none;
 }
 
 
