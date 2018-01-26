@@ -215,6 +215,7 @@ Blog Card Styles
 }
 
 .description-container {
+    background: #e0e0e0;
     height: 50px;
     padding-top: 10px;
 }
@@ -224,6 +225,7 @@ Blog Card Styles
 }
 
 .blog-title a {
+    font-size: 18px;
     color:#4298a5;
     text-decoration: none;
 }
