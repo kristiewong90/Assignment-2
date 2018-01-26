@@ -111,14 +111,14 @@ header .logo {
 .mobile-nav .hamburger-container,
 .mobile-nav .search-container {
     width: 40px;
-    display: inline-block;
-    margin-left: -4px;
+    padding-top: 10px;
+    padding-right: 20px;
+    float: right;
 }
 
 .mobile-nav .logo-container {
-    display: inline-block;
-    margin-left: -4px;
-    width: calc(100% - 80px);
+    float: left;
+    padding-top: 5px;
 }
 
 .mobile-nav button {
@@ -215,7 +215,7 @@ Blog Card Styles
 }
 
 .description-container {
-    background: #e0e0e0;
+    background: white;
     height: 50px;
     padding-top: 10px;
 }
@@ -226,8 +226,14 @@ Blog Card Styles
 
 .blog-title a {
     font-size: 18px;
+    font-weight: 600;
     color:#4298a5;
     text-decoration: none;
+}
+
+.blog-title a:hover {
+
+
 }
 
 
@@ -242,15 +248,24 @@ Footer Styles
 footer {
     height: 200px;
     background: #e0e0e0;
+    text-align: center;
 }
 
 footer h3 {
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
 }
 
+footer ul {
+    padding: 0;
+}
 footer li {
+    padding: 10px;
     display: inline-block;
+    list-style: none;
+}
+
+footer i {
+    color: black;
 }
 
 @media (max-width: 768px) {
